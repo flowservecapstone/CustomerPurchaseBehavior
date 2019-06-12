@@ -1,0 +1,11 @@
+name: custbb
+channels:
+  - defaults
+dependencies:
+  - python==3.7
+  - pandas==0.24
+  - pylint==2.2.2 # used for debug in vscode
+  - pytest==4.2.0 # used to test code
+  # - pip:
+  #   - "azure-storage-blob==1.4.0"
+  #   - git+https://<url of repo>@master
